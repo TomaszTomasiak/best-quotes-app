@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'best-quotes-app';
+  // title = 'best-quotes-app';
+  showForm = false;
+
+  onSwitchForm(): void {
+    this.showForm = !this.showForm;
+  }
+
 }
